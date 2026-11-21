@@ -1,0 +1,4 @@
+#Fri Nov 20 21:48:50 GST 2026
+base.0=/Users/neussapp/noor-tv/neuss-tv/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

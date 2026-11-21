@@ -12,6 +12,9 @@ android {
         buildConfigField 'double', 'LAT', project.property('noor.lat')
         buildConfigField 'double', 'LON', project.property('noor.lon')
         buildConfigField 'int', 'METHOD', project.property('noor.method')
+        // The phone page moved to the standalone Neuss TV app, which owns port 8080.
+        // Set this back to true to serve it from here instead (only one app can hold the port).
+        buildConfigField 'boolean', 'PHONE_PAGE', 'false'
     }
 
     // One small app per shortcut, so each gets its own tile on the home screen.

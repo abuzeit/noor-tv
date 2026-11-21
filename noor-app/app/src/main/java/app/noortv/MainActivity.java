@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
         if (BuildConfig.REMINDERS) {
             Reminder.schedule(this);
             Adhan.schedule(this);
-            MessageServer.start(this);
+            if (BuildConfig.PHONE_PAGE) MessageServer.start(this);
         }
         Uri video = Uri.parse("https://www.youtube.com/watch?v=" + BuildConfig.VIDEO);
         Intent yt = new Intent(Intent.ACTION_VIEW, video).setPackage("com.google.android.youtube.tv");

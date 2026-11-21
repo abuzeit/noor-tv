@@ -1,0 +1,3 @@
+app.neusstv:string/app_name = 0x7f020000
+app.neusstv:drawable/icon = 0x7f010001
+app.neusstv:drawable/banner = 0x7f010000

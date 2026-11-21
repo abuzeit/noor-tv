@@ -9,6 +9,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <!-- The adhan has to fire at the prayer minute, so the alarms are exact. targetSdk 34 refuses
+         setExactAndAllowWhileIdle without this, and the app crashed on Android 14 without it. -->
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
     <!-- Granted with appops over adb, to tell the home screen from a film before playing the adhan. -->
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
         xmlns:tools="http://schemas.android.com/tools" tools:ignore="ProtectedPermissions" />

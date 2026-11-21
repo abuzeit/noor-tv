@@ -1,0 +1,32 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'app.neusstv'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'app.neusstv'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+        resValue 'string', 'app_name', 'Neuss TV'
+        // The port the phone page listens on. Change it here and rebuild.
+        buildConfigField 'int', 'PORT', '8080'
+    }
+
+    buildFeatures { buildConfig true }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // Sideloaded over ADB like the launcher: signed with the debug key.
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

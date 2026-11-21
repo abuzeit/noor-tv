@@ -42,7 +42,7 @@ public class Reminder extends BroadcastReceiver {
         if (!SHOW.equals(i.getAction())) {
             schedule(c);
             Adhan.schedule(c);
-            MessageServer.start(c);
+            if (BuildConfig.PHONE_PAGE) MessageServer.start(c);
             return;
         }
         if (!Settings.canDrawOverlays(c)) return;

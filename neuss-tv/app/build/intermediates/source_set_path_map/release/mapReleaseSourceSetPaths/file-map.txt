@@ -1,0 +1,7 @@
+app.neusstv.app-pngs-0 /Users/neussapp/noor-tv/neuss-tv/app/build/generated/res/pngs/release
+app.neusstv.app-resValues-1 /Users/neussapp/noor-tv/neuss-tv/app/build/generated/res/resValues/release
+app.neusstv.app-packageReleaseResources-2 /Users/neussapp/noor-tv/neuss-tv/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+app.neusstv.app-packageReleaseResources-3 /Users/neussapp/noor-tv/neuss-tv/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+app.neusstv.app-release-4 /Users/neussapp/noor-tv/neuss-tv/app/build/intermediates/merged_res/release/mergeReleaseResources
+app.neusstv.app-main-5 /Users/neussapp/noor-tv/neuss-tv/app/src/main/res
+app.neusstv.app-release-6 /Users/neussapp/noor-tv/neuss-tv/app/src/release/res

@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.neusstv"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:4:5-87
+12        android:name="android.software.leanback"
+12-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:4:19-59
+13        android:required="false" />
+13-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:4:60-84
+14    <uses-feature
+14-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:5:5-90
+15        android:name="android.hardware.touchscreen"
+15-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:5:19-62
+16        android:required="false" />
+16-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:5:63-87
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:7:5-67
+18-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:7:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:8:5-79
+19-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:8:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:9:5-76
+20-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:9:22-73
+21    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+21-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:10:5-78
+21-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:10:22-75
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:11:5-81
+22-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:11:22-78
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:12:5-77
+23-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:12:22-74
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+24-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:13:5-89
+24-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:13:22-86
+25
+26    <application
+26-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:15:5-52:19
+27        android:name="app.neusstv.App"
+27-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:16:9-28
+28        android:allowBackup="true"
+28-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:21:9-35
+29        android:banner="@drawable/banner"
+29-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:20:9-42
+30        android:extractNativeLibs="false"
+31        android:icon="@drawable/icon"
+31-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:19:9-38
+32        android:label="@string/app_name"
+32-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:18:9-41
+33        android:supportsRtl="true"
+33-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:22:9-35
+34        android:usesCleartextTraffic="true" >
+34-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:17:9-44
+35        <activity
+35-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:24:9-30:20
+36            android:name="app.neusstv.MainActivity"
+36-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:24:19-47
+37            android:exported="true"
+37-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:24:48-71
+38            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+38-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:24:72-134
+39            <intent-filter>
+39-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:25:13-29:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:26:17-69
+40-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:26:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:27:17-77
+42-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:27:27-74
+43                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+43-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:28:17-86
+43-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:28:27-83
+44            </intent-filter>
+45        </activity>
+46
+47        <!-- The screen the messages, drawings and photos are shown on. -->
+48        <activity
+48-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:33:9-38:89
+49            android:name="app.neusstv.ShowActivity"
+49-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:33:19-47
+50            android:configChanges="orientation|screenSize|keyboardHidden"
+50-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:37:13-74
+51            android:excludeFromRecents="true"
+51-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:36:13-46
+52            android:exported="false"
+52-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:34:13-37
+53            android:launchMode="singleTop"
+53-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:35:13-43
+54            android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
+54-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:38:13-86
+55
+56        <service
+56-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:40:9-42:19
+57            android:name="app.neusstv.MessageServer"
+57-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:40:18-47
+58            android:exported="false"
+58-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:40:48-72
+59            android:foregroundServiceType="specialUse" >
+59-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:40:73-115
+60            <property
+60-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:41:13-153
+61                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+61-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:41:23-82
+62                android:value="Shows phone messages, drawings and images on the TV" />
+62-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:41:83-150
+63        </service>
+64
+65        <receiver
+65-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:44:9-51:20
+66            android:name="app.neusstv.BootReceiver"
+66-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:44:19-47
+67            android:exported="true" >
+67-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:44:48-71
+68            <intent-filter>
+68-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:45:13-50:29
+69                <action android:name="android.intent.action.BOOT_COMPLETED" />
+69-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:46:17-79
+69-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:46:25-76
+70                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+70-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:47:17-86
+70-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:47:25-83
+71                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+71-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:48:17-84
+71-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:48:25-81
+72                <action android:name="app.neusstv.KEEPALIVE" />
+72-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:49:17-64
+72-->/Users/neussapp/noor-tv/neuss-tv/app/src/main/AndroidManifest.xml:49:25-61
+73            </intent-filter>
+74        </receiver>
+75    </application>
+76
+77</manifest>

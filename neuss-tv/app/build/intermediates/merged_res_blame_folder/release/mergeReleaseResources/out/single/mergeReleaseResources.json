@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/neussapp/.gradle/daemon/8.9/app.neusstv.app-release-4:/drawable_banner.xml.flat",
+        "source": "/Users/neussapp/.gradle/daemon/8.9/app.neusstv.app-main-5:/drawable/banner.xml"
+    },
+    {
+        "merged": "app.neusstv.app-release-4:/drawable-xhdpi_banner.png.flat",
+        "source": "app.neusstv.app-main-5:/drawable-xhdpi/banner.png"
+    },
+    {
+        "merged": "app.neusstv.app-release-4:/drawable-xhdpi_icon.png.flat",
+        "source": "app.neusstv.app-main-5:/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/neussapp/.gradle/daemon/8.9/app.neusstv.app-release-4:/drawable_icon.xml.flat",
+        "source": "/Users/neussapp/.gradle/daemon/8.9/app.neusstv.app-main-5:/drawable/icon.xml"
+    }
+]
